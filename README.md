@@ -1,4 +1,5 @@
 # 100-Days-Of-ML-Challenge
+#Siraj Raval has challenged the machine learning/deep learning community to commit to 100 days of machine learning. Challenge accepted!
 Day 1 -> Data Preprocessing
 Use Imputer from sklearn method to handle the missing data.
 strategy : string, optional (default=”mean”)
