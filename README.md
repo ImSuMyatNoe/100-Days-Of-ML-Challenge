@@ -23,6 +23,9 @@ encode categorical integer features using a one-hot aka one-of-K scheme.
 > Simple Liner Regression Model is used for One variable, denoted x, is regarded as the predictor, explanatory, or independent variable.
 The other variable, denoted y, is regarded as the response, outcome, or dependent variable.
 In Data Visualization we use matplotlib , We spilt the XTrain and XTest.We only use X variable because X is independent variable.
-### Day 2 -> Data Preprocessing
-> Logistic Regression
+### Day 2 -> Logistic Regression
 > Although I added the note yesterday but some how I forgot to Click Commit Changes. But you can see my code how multipe logistic regression worked.
+### Day 3 -> Apriori Algorithm
+https://www.hackerearth.com/blog/machine-learning/beginners-tutorial-apriori-algorithm-data-mining-r-implementation/
+> Aprior Algorithm is one of the Data Mining Algorithms used in recommendations such as amzon web service. I read the detail of the Alg from the link that I mentioned earlier.
+> The error I found here is I used with anaconda cloud and jupyter notebook, I can't import packages to anacond because of unstastified resources.
