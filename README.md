@@ -23,3 +23,6 @@ encode categorical integer features using a one-hot aka one-of-K scheme.
 > Simple Liner Regression Model is used for One variable, denoted x, is regarded as the predictor, explanatory, or independent variable.
 The other variable, denoted y, is regarded as the response, outcome, or dependent variable.
 In Data Visualization we use matplotlib , We spilt the XTrain and XTest.We only use X variable because X is independent variable.
+### Day 2 -> Data Preprocessing
+> Logistic Regression
+> Although I added the note yesterday but some how I forgot to Click Commit Changes. But you can see my code how multipe logistic regression worked.
