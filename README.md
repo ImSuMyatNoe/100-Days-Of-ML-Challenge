@@ -65,5 +65,4 @@ More advance examples could include handwriting detection (like OCR), image reco
 >> Also known as one-vs-all, this strategy consists in fitting one classifier per class. For each classifier, the class is fitted against all the other classes. In addition to its computational efficiency (only n_classes classifiers are needed), one advantage of this approach is its interpretability. Since each class is represented by one and one classifier only, it is possible to gain knowledge about the class by inspecting its corresponding classifier. This is the most commonly used strategy for multiclass classification and is a fair default choice.
 
 This strategy can also be used for multilabel learning, where a classifier is used to predict multiple labels for instance, by fitting on a 2-d matrix in which cell [i, j] is 1 if sample i has label j and 0 otherwise.
-
-In the multilabel learning literature, OvR is also known as the binary relevance method.
+> from sklearn.cross_validation import train_test_split # cross validation is used for train test split
