@@ -66,3 +66,11 @@ More advance examples could include handwriting detection (like OCR), image reco
 
 This strategy can also be used for multilabel learning, where a classifier is used to predict multiple labels for instance, by fitting on a 2-d matrix in which cell [i, j] is 1 if sample i has label j and 0 otherwise.
 > from sklearn.cross_validation import train_test_split # cross validation is used for train test split
+
+## “Support Vector Machine” 
+(SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes very well.
+https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/
+rbf is the default parameter in SVM.
+svc = svm.SVC(kernel='rbf', C=1,gamma=0).fit(X, y)
+If you have large number of features (>1000) , then please choose linear kernel instea of rbf.
+Also there are kernal parameters such as “Linear”,”Poly”,”rbf” .
