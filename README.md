@@ -74,3 +74,16 @@ rbf is the default parameter in SVM.
 svc = svm.SVC(kernel='rbf', C=1,gamma=0).fit(X, y)
 If you have large number of features (>1000) , then please choose linear kernel instea of rbf.
 Also there are kernal parameters such as “Linear”,”Poly”,”rbf” .
+### Day 5 > Salary Data Set with Regression
+> Overfitting a model will result in the model predicting perfect results with the training data, but once real data is provided it will generate inaccurate results compared to what the actual value should be. The plot below is a great example of it. The overfitted model is the line that goes through all points exactly. Overfitting a model won’t generalize to data that it has not seen before which will produce an inaccurate prediction
+> Underfitting is the opposite, where the model doesn’t perform very well on the training data. This usually is caused by not having enough data for the algorithm to find a pattern. Underfitting will result in the model being too simple for the data, which will result in poor performance of the model.
+> df_copy.describe() 
+describe means mean, median, count, and std.
+> pandas comes with a useful function for finding correlations between each of the columns.
+df_copy.corr()
+> train_set is the data frame which would have the inputs – the number of years of experience.
+train_labels is the series (data frame with one column) that has our answers to the input – the salary amount for specified years of experience.
+## SVR
+SVR is also same with SVM 
+SVM is also known as regression.
+Support Vector Machine can also be used as a regression method, maintaining all the main features that characterize the algorithm (maximal margin). The Support Vector Regression (SVR) uses the same principles as the SVM for classification, with only a few minor differences. First of all, because output is a real number it becomes very difficult to predict the information at hand, which has infinite possibilities. In the case of regression, a margin of tolerance (epsilon) is set in approximation to the SVM which would have already requested from the problem. But besides this fact, there is also a more complicated reason, the algorithm is more complicated therefore to be taken in consideration. However, the main idea is always the same: to minimize error, individualizing the hyperplane which maximizes the margin, keeping in mind that part of the error is tolerated. 
