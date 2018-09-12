@@ -92,3 +92,5 @@ Support Vector Machine can also be used as a regression method, maintaining all 
 > Read Some of the Deep Learning Model and Transfer Learning.
 > Moreover I've doing some of the courses in the DataCamp.
 > No Code For Today.
+> Do Some web scraping with python 3.
+> The bad news is the data I've been collecting from the website is Http request is forbideen.
