@@ -94,3 +94,48 @@ Support Vector Machine can also be used as a regression method, maintaining all 
 > No Code For Today.
 > Do Some web scraping with python 3.
 > The bad news is the data I've been collecting from the website is Http request is forbideen.
+### Day 7
+> Sentiment Analysis
+> Read Alg about TF - IDF
+> What is TF*IDF?
+TF*IDF is an information retrieval technique that weighs a term’s frequency (TF) and its inverse document frequency (IDF). Each word or term has its respective TF and IDF score. The product of the TF and IDF scores of a term is called the TF*IDF weight of that term.
+Google has already been using TF*IDF (or TF-IDF, TFIDF, TF.IDF, Artist formerly known as Prince) as a ranking factor for your content for a long time, as the search engine seems to focus more on term frequency rather than on counting keywords. While the visual complexity of the algorithm might turn a lot of people off, it is important to recognize that understanding TF*IDF is not as significant as knowing how it works.
+
+TF*IDF is used by search engines to better understand content which is undervalued. For example, if you’d want to search a term “Coke” on Google, this is how Google can figure out if a page titled “COKE” is about:
+
+a) Coca-Cola.
+b) Cocaine.
+c) A solid, carbon-rich residue derived from the distillation of crude oil.
+d) A county in Texas.
+
+For a term t in a document d, the weight Wt,d of term t in document d is given by:
+
+Wt,d = TFt,d log (N/DFt)
+
+Where:
+
+TFt,d is the number of occurrences of t in document d.
+DFt is the number of documents containing the term t.
+N is the total number of documents in the corpus.
+> For example, when a 100 word document contains the term “cat” 12 times, the TF for the word ‘cat’ is
+
+TFcat = 12/100 i.e. 0.12
+
+The IDF (inverse document frequency) of a word is the measure of how significant that term is in the whole corpus.
+> Word Embeddings
+A word embedding is a form of representing words and documents using a dense vector representation. The position of a word within the vector space is learned from text and is based on the words that surround the word when it is used. Word embeddings can be trained using the input corpus itself or can be generated using pre-trained word embeddings such as Glove, FastText, and Word2Vec. Any one of them can be downloaded and used as transfer learning. One can read more about word embeddings here.
+> Model Building in NLP
+The final step in the text classification framework is to train a classifier using the features created in the previous step. There are many different choices of machine learning models which can be used to train a final model. We will implement following different classifiers for this purpose:
+
+Naive Bayes Classifier
+Linear Classifier
+Support Vector Machine
+Bagging Models
+Boosting Models
+Shallow Neural Networks
+Deep Neural Networks
+Convolutional Neural Network (CNN)
+Long Short Term Modelr (LSTM)
+Gated Recurrent Unit (GRU)
+Bidirectional RNN
+Recurrent Convolutional Neural Network (RCNN)
