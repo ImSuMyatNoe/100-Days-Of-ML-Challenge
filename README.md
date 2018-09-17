@@ -139,3 +139,7 @@ Long Short Term Modelr (LSTM)
 Gated Recurrent Unit (GRU)
 Bidirectional RNN
 Recurrent Convolutional Neural Network (RCNN)
+------------------------------------------------------------------------------------------------------------------------------
+### Day 8 -> Decision Tree (DNN)
+- Started Learning TensorFlow
+------------------------------------------------------------------------------------------------------------------------------
