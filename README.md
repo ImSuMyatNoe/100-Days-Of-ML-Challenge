@@ -142,4 +142,5 @@ Recurrent Convolutional Neural Network (RCNN)
 ------------------------------------------------------------------------------------------------------------------------------
 ### Day 8 -> Decision Tree (DNN)
 - Started Learning TensorFlow
+- For Installing TensorFlow in mac with virtualenv Here (https://www.youtube.com/watch?v=iHG8qceY-iE) is the best video ever I've seen.
 ------------------------------------------------------------------------------------------------------------------------------
