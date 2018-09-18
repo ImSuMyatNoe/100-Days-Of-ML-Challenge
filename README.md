@@ -144,3 +144,5 @@ Recurrent Convolutional Neural Network (RCNN)
 - Started Learning TensorFlow
 - For Installing TensorFlow in mac with virtualenv Here (https://www.youtube.com/watch?v=iHG8qceY-iE) is the best video ever I've seen.
 ------------------------------------------------------------------------------------------------------------------------------
+### Day 9 -> Tensorflow Image Classification With Docker
+------------------------------------------------------------------------------------------------------------------------------
