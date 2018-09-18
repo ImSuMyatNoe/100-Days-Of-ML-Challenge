@@ -141,8 +141,16 @@ Bidirectional RNN
 Recurrent Convolutional Neural Network (RCNN)
 ------------------------------------------------------------------------------------------------------------------------------
 ### Day 8 -> Decision Tree (DNN)
-- Started Learning TensorFlow
+- TensorFlow installation in anaconda and virtual env
 - For Installing TensorFlow in mac with virtualenv Here (https://www.youtube.com/watch?v=iHG8qceY-iE) is the best video ever I've seen.
 ------------------------------------------------------------------------------------------------------------------------------
-### Day 9 -> Tensorflow Image Classification With Docker
+### Day 9 -> Tensorflow 
+- TensorFlow installation in Docker
+- Image Classification with Docker
+- Basic Classification With MINIST DataSet
+- Text Classification with IMDB Dataset
+- Install Kitematic(Beta) version from Docker
+- After That, Run Nginx Server
 ------------------------------------------------------------------------------------------------------------------------------
+
+
