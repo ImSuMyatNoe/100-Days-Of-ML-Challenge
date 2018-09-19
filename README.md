@@ -152,5 +152,9 @@ Recurrent Convolutional Neural Network (RCNN)
 - Install Kitematic(Beta) version from Docker
 - After That, Run Nginx Server
 ------------------------------------------------------------------------------------------------------------------------------
-
+### Day 10 -> 
+- Data Camp Deep Learning
+- Backward Propagation
+- Gradient Descent
+------------------------------------------------------------------------------------------------------------------------------
 
